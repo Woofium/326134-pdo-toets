@@ -20,7 +20,7 @@ try {
   $stmt->bindParam(':kruiden', $kruiden);
 
   // insert a row
-  $id = $_POST["id"];
+  $id = NULL;
   $bodemfoormaat = $_POST["bodemfoormaat"];
   $saus = $_POST["saus"];
   $pizzatoppings = $_POST["pizzatoppings"];
